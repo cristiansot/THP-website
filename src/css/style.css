@@ -29,7 +29,7 @@ body {
 .nav div.logo a {
 	text-decoration: none;
   font-weight: 400;
-  color: #6a788e;
+  color: #464f5e;
 	font-size: 2.5rem;
 }
 
@@ -49,7 +49,7 @@ body {
 	display: flex;
 	list-style: none;
 	margin-right: 100px;
-	padding: 0;
+  margin-top: 0px;
 }
 
 .nav div.main_list ul li {
@@ -61,7 +61,7 @@ body {
 
 .nav div.main_list ul li a {
 	text-decoration: none;
-  color: #6a788e;
+  color: #464f5e;;
 	line-height: 65px;
 	font-size: 2.4rem;
 }
@@ -132,6 +132,7 @@ body {
 	.nav div.show_list {
 		height: auto;
 		display: none;
+    margin-top: -20px;
 	}
 	.nav div.main_list ul {
 		flex-direction: column;
@@ -140,19 +141,23 @@ body {
 		right: 0;
 		left: 0;
 		bottom: 0;
-		background-color: #111;
+		background-color: #aaadb4e9;
 		/*same background color of navbar*/
 		background-position: center top;
 	}
 	.nav div.main_list ul li {
-		width: 100%;
+    margin-top: 60px;
+    margin-bottom: -60px;
+		width: 82%;
 		text-align: right;
-	}
+  }
+
 	.nav div.main_list ul li a {
 		text-align: center;
 		width: 100%;
 		font-size: 3rem;
-		padding: 20px;
+		padding: 0px;
+    color: #FFF;
 	}
 	.nav div.media_button {
 		display: block;
@@ -160,7 +165,6 @@ body {
 }
 
 /* Animation */
-/* Inspiration taken from Dicson https://codemyui.com/simple-hamburger-menu-x-mark-animation/ */
 
 .navTrigger {
 	cursor: pointer;
@@ -174,7 +178,7 @@ body {
 }
 
 .navTrigger i {
-	background-color: #fff;
+	background-color: #7a93a9;
 	border-radius: 2px;
 	content: "";
 	display: block;
@@ -353,21 +357,47 @@ body {
 
 .affix {
 	padding: 0;
-	background-color: #d1d3d9ce;
+	background-color: #ebebefef;
 }
 
 .myH2 {
 	text-align: center;
 	font-size: 4rem;
+  font-weight: 300;
+  color: #464f5e;
 }
+
 .myP {
-	text-align: justify;
-	padding-left: 15%;
-	padding-right: 15%;
+  display: flex;
+	text-align: center;
+	padding-left: 12%;
+	padding-right: 12%;
 	font-size: 20px;
+  font-weight: 300;
+  color: #464f5e;
 }
+
 @media all and (max-width: 700px) {
 	.myP {
 		padding: 2%;
 	}
+
+  .logo {
+    display: flex;
+    width: 32%;
+    margin-top: 128px;
+    margin-left: -226px;
+  }
+  
+  .photoHome {
+    display: flex;
+    width: 100%;
+    border-radius: 0px;
+  }
+  
+  .nav div.main_list ul li a:hover {
+    color: #333;
+  }
 }
+
+
