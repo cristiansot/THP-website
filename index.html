@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <form method='POST' action='./src/php/enviar.php'>
+    <form method='POST' action='./src/php/send.php'>
     <link rel="stylesheet" href="./src/css/style.css">
     <title>THP</title>
 </head>
 <body>
   
-  <header>
+  <header id="inicio">
     <nav class="nav">
       <div class="container">
         <div class="logo">
@@ -19,11 +19,11 @@
         </div>
         <div id="mainListDiv" class="main_list">
           <ul class="navlinks">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Propiedades</a></li>
-            <li><a href="#">Somos</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a class="phone" href="#">+569 9299 2640</a></li>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#propiedades">Propiedades</a></li>
+            <li><a href="#somos">Somos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a class="phone" href="">+569 9299 2640</a></li>
           </ul>
         </div>
         <span class="navTrigger">
@@ -40,7 +40,7 @@
   </header>
   
   <section>
-      <h2 class="myH2">Propiedades</h2>
+      <h2 class="myH2" id="propiedades">Propiedades</h2>
 
         <div class="grid">
           <div class="photoProp"><img src="./src/img/zañartu.jpg" alt="">
@@ -49,11 +49,13 @@
             <h2 class="price">3.490 UF</h2>
             <div class="info">
               <div class="icon"><img src="./src/img/room.gif" alt=""></div>
-              <h3 class="space">2 Domrmitorios</h3>
+              <h3 class="space">2 Domrmitorios</h3>s
               <div class="icon"><img src="./src/img/bath.gif" alt=""></div>
               <h3 class="space">1 Baño</h3>
             </div>
-             <div class="button" href="#" class="button">Ver propiedad</div>
+            <div>
+              <a class="button" href="https://www.portalinmobiliario.com/MLC-1456533387-vendo-departamento-en-zanartu-cercano-a-metro-estadio-nacio-_JM" target="_blank">Ver propiedad</a>
+            </div>
           </div>
 
           <div class="photoProp"><img src="./src/img/zañartu_2.jpg" alt="">
@@ -66,7 +68,9 @@
               <div class="icon"><img src="./src/img/bath.gif" alt=""></div>
               <h3 class="space">1 Baño</h3>
             </div>
-             <div class="button" href="#" class="button">Ver propiedad</div>
+            <div>
+              <a class="button" href="https://www.toctoc.com/propiedades/compracorredorasr/departamento/nunoa/vendo-departamento-en-zanartu-cercano-a-metro-estadio-nacional/3011034?utm_source=addcorredor&utm_campaign=listadopropiedades" target="_blank">Ver propiedad</a>
+            </div>
           </div>
 
           <div class="photoProp"><img src="./src/img/irarrazaval.jpg" alt="">
@@ -79,7 +83,9 @@
               <div class="icon"><img src="./src/img/bath.gif" alt=""></div>
               <h3 class="space">2 Baños</h3>
             </div>
-             <div class="button" href="#" class="button">Ver propiedad</div>
+            <div>
+              <a class="button" href="https://www.portalinmobiliario.com/MLC-1455899541-vendo-departamento-a-pasos-del-metro-monsenor-eyzaguirre-_JM" target="_blank">Ver propiedad</a>
+            </div>
           </div>
 
           <div class="photoProp"><img src="./src/img/llico.jpg" alt="">
@@ -92,7 +98,9 @@
               <div class="icon"><img src="./src/img/bath.gif" alt=""></div>
               <h3 class="space">2 Baños</h3>
             </div>
-             <div class="button" href="#" class="button">Ver propiedad</div>
+            <div>
+              <a class="button" href="https://www.portalinmobiliario.com/MLC-2219062426-vendo-casa-en-calle-llico-cercana-a-departamental-san-miguel-_JM" target="_blank">Ver propiedad</a>
+            </div>
           </div>
 
           <div class="photoProp"><img src="./src/img/g_vieja.jpg" alt="">
@@ -105,7 +113,9 @@
               <div class="icon"><img src="./src/img/bath.gif" alt=""></div>
               <h3 class="space">4 Baños</h3>
             </div>
-             <div class="button" href="#" class="button">Ver propiedad</div>
+            <div>
+              <a class="button" href="https://www.toctoc.com/propiedades/compracorredorasr/oficina/providencia/vendo-oficina-en-guardia-vieja-metro-los-leones/3015627?utm_source=addcorredor&utm_campaign=listadopropiedades" target="_blank">Ver propiedad</a>
+            </div>
           </div>
 
           <div class="photoProp"><img src="./src/img/molino.jpg" alt="">
@@ -118,7 +128,9 @@
               <div class="icon"><img src="./src/img/bath.gif" alt=""></div>
               <h3 class="space">1 Baño</h3>
             </div>
-             <div class="button" href="#" class="button">Ver propiedad</div>
+            <div>
+              <a class="button" href="https://www.toctoc.com/propiedades/compracorredorasr/departamento/independencia/vendo-departamento-en-el-molino-cercano-a-metro-hospitales/3014564?utm_source=addcorredor&utm_campaign=listadopropiedades" target="_blank">Ver propiedad</a>
+            </div>
           </div>
 
           <div class="photoProp"><img src="./src/img/foresta.jpg" alt="">
@@ -131,7 +143,9 @@
               <div class="icon"><img src="./src/img/bath.gif" alt=""></div>
               <h3 class="space">2 Baños</h3>
             </div>
-             <div class="button" href="#" class="button">Ver propiedad</div>
+            <div>
+              <a class="button" href="https://www.toctoc.com/propiedades/compracorredorasr/departamento/san-miguel/vendo-departamento-en-condominio-la-foresta-ii-metro-ciudad-del-nino-san-miguel/3007700?utm_source=addcorredor&utm_campaign=listadopropiedades" target="_blank">Ver propiedad</a>
+            </div>
           </div>
 
           <div class="photoProp"><img src="./src/img/quinta_normal.jpg" alt="">
@@ -144,7 +158,9 @@
               <div class="icon"><img src="./src/img/bath.gif" alt=""></div>
               <h3 class="space">1 Baño</h3>
             </div>
-             <div class="button" href="#" class="button">Ver propiedad</div>
+            <div>
+              <a class="button" href="https://www.toctoc.com/propiedades/compracorredorasr/departamento/quinta-normal/vendo-departamento-cercano-metro-quinta-normal/3007427?utm_source=addcorredor&utm_campaign=listadopropiedades" target="_blank">Ver propiedad</a>
+            </div>
           </div>
 
           <div class="photoProp"><img src="./src/img/lord.jpg" alt="">
@@ -157,46 +173,43 @@
               <div class="icon"><img src="./src/img/bath.gif" alt=""></div>
               <h3 class="space">2 Baños</h3>
             </div>
-             <div class="button" href="#" class="button">Ver propiedad</div>
+            <div>
+              <a class="button" href="https://www.toctoc.com/propiedades/arriendocorredorasr/departamento/santiago/arriendo-departamento-cercano-a-metro-toesca/3011022?utm_source=addcorredor&utm_campaign=listadopropiedades" target="_blank">Ver propiedad</a>
+            </div>
           </div>    
         </div>
       </section>
   
       <section>
-        <h2 class="myH2">Somos</h2>
+        <h2 class="myH2" id="somos">Somos</h2>
         <p class="myP">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsum ratione facere animi impedit rem labore sint repellendus ipsa sapiente voluptatem aut excepturi quo itaque, ab earum cumque. Voluptatem beatae id inventore quod voluptate qui deserunt, quis placeat, tempora ex totam, dolore sequi harum eos voluptatibus animi labore officiis minus laboriosam
         </p>
         <div class="content">
-          <img class="tour" src="./src/img/planimetry.png" alt="">
-          <img class="device" src="./src/img/camera.webp" alt="">
+          <img class="tour" src="./src/img/planimetry.jpg" alt="">
+          <img class="device" src="./src/img/camera.jpg" alt="">
         </div>
       </section>  
 
-      <footer>
-        <h2 class="myH2">Contacto</h2>
+      <h2 class="myH2" id="contacto">Contacto</h2>
 
-        <h1 class="title">Get in touch</h1>
+      <footer>
         <form method='POST'>
-          <div class="form-group">
-            <label for="nombre">Nombre</label>
-            <input type="text" class="form-control" name='nombre' id="nombre" placeholder="nombre...">
+          <div class="contentForm">
+            <div class="form-group">
+              <input type="text" class="form-control" name='nombre' id="nombre" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name='email' id="email" placeholder="E-mail">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name='mensaje' id="mensaje" placeholder="Mensaje" rows="3"></textarea>
+            </div>
+            <button class="" type="submit">Enviar</button>
           </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" name='email' id="email" placeholder="email...">
-          </div>
-          <div class="form-group">
-            <label for="exampleTextarea">Mensaje</label>
-            <textarea class="form-control" name='mensaje' id="mensaje" rows="3"></textarea>
-          </div>
-          <div class="form-group">
-            <input type="checkbox" required> Acepto la política de privacidad.
-          </div>
-          <button class="btn btn-primary" type="submit">Enviar</button>
+          
         </form>
     
-
       </footer>
       
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
