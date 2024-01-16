@@ -1,6 +1,6 @@
-/* * {
+* {
   outline: 1px red dashed;
-} */
+}
 
 @import url("https://fonts.googleapis.com/css?family=Quicksand:400,500,700");
 html,
@@ -578,7 +578,12 @@ textarea:hover {
 }
 
 @media all and (max-width: 700px) {
-	.myP {
+	
+  /* body {
+    align-items: center;
+  } */
+  
+  .myP {
 		padding: 2%;
 	}
 
@@ -598,6 +603,33 @@ textarea:hover {
   .nav div.main_list ul li a:hover {
     color: #333;
   }
+
+  .grid {
+    display: grid;
+
+  }
+
+  .myP {
+    font-size: 18px;
+    padding: 30px;
+
+  }
+  
+
+  .tour {
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+  }
+  
+  .device {
+    margin-top: 40px;
+    border-radius: 30px;
+    width: 300px;
+    height: 300px;
+    padding: 0px;
+  }
+  
 }
 
 

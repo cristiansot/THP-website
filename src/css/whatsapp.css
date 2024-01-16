@@ -16,7 +16,7 @@
 }
  
 a.blantershow-chat {
-  /*   background: #009688; */
+  text-decoration: none;
   background: #fff;
   color: #404040;
   position: fixed;
