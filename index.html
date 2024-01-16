@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <form method='POST' action='./src/php/enviar.php'>
     <link rel="stylesheet" href="./src/css/style.css">
     <title>THP</title>
 </head>
@@ -175,10 +176,32 @@
       <footer>
         <h2 class="myH2">Contacto</h2>
 
+        <h1 class="title">Get in touch</h1>
+        <form method='POST'>
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" class="form-control" name='nombre' id="nombre" placeholder="nombre...">
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" name='email' id="email" placeholder="email...">
+          </div>
+          <div class="form-group">
+            <label for="exampleTextarea">Mensaje</label>
+            <textarea class="form-control" name='mensaje' id="mensaje" rows="3"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="checkbox" required> Acepto la política de privacidad.
+          </div>
+          <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+    
+
       </footer>
       
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <script src="./src/js/script.js"></script>  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="./src/js/script.js"></script>   
+ 
 </body>
     
 </html>
