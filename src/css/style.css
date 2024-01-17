@@ -366,6 +366,7 @@ textarea:hover {
 /* Animation */
 
 .navTrigger {
+  display: none;
 	cursor: pointer;
 	width: 30px;
 	height: 25px;
@@ -375,7 +376,7 @@ textarea:hover {
 	top: 0;
 	bottom: 0;
 }
-
+/* 
 .navTrigger i {
 	background-color: #7a93a9;
 	border-radius: 2px;
@@ -420,7 +421,7 @@ textarea:hover {
 .navTrigger.active i:nth-child(3) {
 	-webkit-animation: inBtm 0.8s forwards;
 	animation: inBtm 0.8s forwards;
-}
+} */
 
 @-webkit-keyframes inM {
 	50% {
@@ -634,15 +635,29 @@ textarea:hover {
     padding: 0px;
   }
 
-  .contentForm {
+  footer {
     display: flex;
-    width: 100px;
-    justify-items: stretch;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100px;
   }
-/*  
-  .form-group {
-    width: 50px;
-  } */
+  
+  input {
+    font-size: 16px;
+    width: 300px;
+    height: 50px;
+    /* padding: 0px 15px 0px 15px; */
+  }
+  
+  input:hover {
+    background: #d1d3d977;
+  }
+  
+  textarea {
+    width: 300px;
+  }
+
 }
 
 
