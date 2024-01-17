@@ -36,9 +36,10 @@
       </div>
     </nav>
     <div id="main">
-      <img class="logo" src="./src/img/logo_transparent.png" alt="">
+      <img class="logoTrans" src="./src/img/logo_transparent.png" alt="">
       <img class="photoHome" src="./src/img/photo-home.jpg" alt="">
     </div>
+    <a class="phoneResponsive" href="tel:+56992992640">+569 9299 2640</a>
   </header>
   
   <section>
@@ -200,16 +201,16 @@
         </div>
       </section>
   
-      <section>
+      <section class="our">
         <h2 class="myH2" id="nosotros">Nosotros</h2>
         <p class="myP">
           Somos expertos en corretaje de propiedades con más de 5 años de experiencia en el área, brindamos excelencia en el servicio,
-          contamos con un grupo interdisciplinario de profesionales para otorgar una atención personalizada a nuestros clientes, los 
+          contamos con un grupo interdisciplinario de profesionales para otorgar una atención personalizada a nuestros clientes. Los 
           acompañamos en todo el proceso de gestión de compraventa u arriendo de su propiedad, para cerrar exitosamente cada negocio 
           y experimente un servicio de primera calidad, que desee repetir y referir a sus cercanos.<br><br>
-          Utilizamos tecnología de punta recorridos virtuales, excelentes imágenes, realizamos publicaciones en los portales web más
-          importantes y difusión en redes sociales, para promocionar de la mejor forma su propiedad.<br><br>
-          Nuestra visión de futuro es posicionarnos como una corredora de propiedades “Comprometida, confiable, cercana y transparente” para ser líderes en el mercado del corretaje boutique.
+          Utilizamos tecnología de punta, hacemos recorridos virtuales y excelentes imágenes. Publicamos en los portales web más
+          importantes y difundimos en redes sociales para promocionar de la mejor forma su propiedad.<br><br>
+          Nuestra visión de futuro es posicionarnos como una corredora de propiedades “Comprometida, confiable, cercana y transparente” con el objetivo de ser parte de las empresas líderes en el mercado del corretaje boutique.
         </p>
         <div class="content">
           <img class="tour" src="./src/img/planimetry.jpg" alt="">
@@ -223,13 +224,13 @@
         <form method='POST'>
           <div class="contentForm">
             <div class="form-group">
-              <input type="text" class="form-control" name='nombre' id="nombre" placeholder="Nombre">
+              <input type="text" class="form-control" name='nombre' id="nombre" placeholder="Nombre" required>
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" name='email' id="email" placeholder="E-mail">
+              <input type="email" class="form-control" name='email' id="email" placeholder="E-mail" required>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name='mensaje' id="mensaje" placeholder="Mensaje" rows="3"></textarea>
+              <textarea class="form-control" name='mensaje' id="mensaje" placeholder="Mensaje" rows="3" required></textarea>
             </div>
             <button class="submit" type="submit">Enviar</button>
           </div>
