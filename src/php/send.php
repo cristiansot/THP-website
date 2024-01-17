@@ -4,7 +4,7 @@
 	$asunto = 'Formulario Rellenado';
 	$mensaje = "Nombre: ".$nombre."<br> Email: $email<br> Mensaje:".$_POST['mensaje'];
 
-	if(mail('csoto@gssd.cl', $asunto, $mensaje)){
+	if(mail('paula@thp.cl', $asunto, $mensaje)){
 		echo "Correo enviado";
         header("location: ./index.html",true,303);
 	}

@@ -160,16 +160,16 @@ h3 {
   padding: 0;
 }
 
-.icon {
+.icon img{
   display: flex;
-  width: 20px;
+  width: 32px;
 }
 
 .space {
   font-size: 2rem;
   font-weight: 400;
   color: #697487;
-  margin-left: 14px;
+  margin-left: 8px;
   margin-right: 14px;
 }
 
@@ -656,6 +656,10 @@ textarea:hover {
   
   textarea {
     width: 300px;
+  }
+
+  .icon img{
+    width: 26px;
   }
 
 }
