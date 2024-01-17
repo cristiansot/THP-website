@@ -205,7 +205,7 @@ h3 {
   padding: 40px;
 }
 
-/* Button */
+/* Buttons */
 
 .button {
 	-webkit-transition: all 300ms cubic-bezier(0.390, 0.500, 0.150, 1.360);
@@ -231,6 +231,21 @@ h3 {
 .button:hover {
 	color: rgba(255, 255, 255, 0.85);
 	box-shadow: #464f5e 0 0px 0px 40px inset;
+}
+
+.submit {
+  font-size: 16px;
+  width: 502px;
+  height: 30px;
+  margin-top: -3px;
+  outline: none;
+  color: #7a7a7a;
+  border: solid 1px #b3aca7;
+}
+
+.submit:hover {
+	color: rgba(255, 255, 255, 0.85);
+	box-shadow:  #93a3c0 0 0px 0px 40px inset;
 }
 
 /* Form */
@@ -633,6 +648,7 @@ textarea:hover {
     width: 300px;
     height: 300px;
     padding: 0px;
+    margin-bottom: -16px;
   }
 
   footer {
@@ -660,6 +676,10 @@ textarea:hover {
 
   .icon img{
     width: 26px;
+  }
+
+  .submit {
+    width: 332px;
   }
 
 }
